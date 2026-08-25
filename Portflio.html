@@ -256,7 +256,6 @@
                 model.scale.set(1.2, 1.2, 1.2);
                 scene.add(model);
 
-                // 🌟 เพิ่มไฟให้สว่างมากขึ้น
                 const nameLight = new THREE.SpotLight(0xffffff, 10);
                 nameLight.position.set(-3, 10, 6);
                 nameLight.angle = Math.PI / 5;
@@ -266,7 +265,6 @@
                 scene.add(nameLight);
                 scene.add(nameLight.target);
 
-                // 🌌 เพิ่มเอฟเฟกต์ Zoom ออก (กล้องถอย)
                 const startPos = camera.position.clone();
                 const endPos = new THREE.Vector3(0, 4, 14); // ถอยออก
                 const duration = 1500;
