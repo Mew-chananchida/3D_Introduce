@@ -1,7 +1,7 @@
 # 3D Introduce
 
 โปรเจกต์ด้าน **3D Web Development** ที่พัฒนาขึ้นเพื่อทดลองการสร้างและนำเสนอวัตถุสามมิติผ่านเว็บ โดยเน้นการแสดงผลแบบ Interactive และการโต้ตอบกับ Scene ผ่านผู้ใช้งาน
-
+Live Demo:https://mew-chananchida.github.io/3D_Introduce/
 ## Main Features
 
 - แสดงโมเดล 3D ผ่าน Web Browser
