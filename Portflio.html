@@ -116,12 +116,12 @@
             point.position.set(0, 5, 0);
             scene.add(point);
 
-            loader.load('https://raw.githubusercontent.com/Mew-chananchida/Portflio/refs/heads/main/หน้า_1.glb',
+            loader.load('assets/หน้า_1.glb',
                 gltf => { scene.add(gltf.scene); },
                 undefined, err => console.error(err)
             );
 
-            loader.load('https://raw.githubusercontent.com/Mew-chananchida/Portflio/refs/heads/main/ค้างคาว.glb',
+            loader.load('assets/ค้างคาว.glb',
                 gltf => {
                     bat = gltf.scene;
                     bat.scale.set(0.5, 0.5, 0.5);
@@ -130,7 +130,7 @@
                 undefined, err => console.error(err)
             );
 
-            loader.load('https://raw.githubusercontent.com/Mew-chananchida/Portflio/refs/heads/main/pumpkin_chicken_gun.glb',
+            loader.load('assets/pumpkin_chicken_gun.glb',
                 gltf => {
                     pumpkin = gltf.scene;
                     pumpkin.scale.set(0.4, 0.4, 0.4);
@@ -238,7 +238,7 @@
             spot.castShadow = true;
             scene.add(spot);
 
-            loader.load('https://raw.githubusercontent.com/Mew-chananchida/Portflio/refs/heads/main/2.glb', (gltf) => {
+            loader.load('assets/2.glb', (gltf) => {
                 const model = gltf.scene;
                 model.position.set(0, 0, 0);
                 model.scale.set(1, 1, 1);
@@ -250,7 +250,7 @@
         function loadNameModel() {
             document.getElementById('clickHere').style.display = 'none';
 
-            loader.load('https://raw.githubusercontent.com/Mew-chananchida/Portflio/refs/heads/main/ชื่อ.glb', (gltf) => {
+            loader.load('assets/ชื่อ.glb', (gltf) => {
                 const model = gltf.scene;
                 model.position.set(0, 0, 0);
                 model.scale.set(1.2, 1.2, 1.2);
